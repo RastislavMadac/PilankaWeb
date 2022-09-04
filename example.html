@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/grid.css">
+    <link rel="stylesheet" href="/css/queries.css">
+    <link rel="icon" href="/images/icons/favicon-16x16.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/jq/script.js"></script>
+    <title>Pilanka nástroje</title>
+    <nav>
+        <ul>
+            <li><a href="#">Jedna</a></li>
+            <li><a href="#">Dva</a></li>
+            <li><a href="#">Tri</a></li>
+            <li><a href="#">Štiry</a></li>
+            <li><a href="#">Päť</a></li>
+        </ul>
+    </nav>
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar row clearfix">
+            <div id="logo">
+                <img src="/images/logo no background small copy(7).png" alt="">
+            </div>
+        </div>
+        <div class="header-text">
+            <h1>Náradie pre každého</h1>
+            <a href="#" class="btn btn-full">Prvé tlačídko</a>
+            <a href="#" class="btn btn-empty">Druhé tlačídko</a>
+        </div>
+
+    </header>
+    <main>
+        <section class="about-us row">
+            <div class="heading-main">
+                <h2>Informácie o firme</h2>
+            </div>
+            <div class="section-example">
+                <div class="col span-1-of-2">
+                    <img src="/images/Saw_hero.webp" alt="Pilky na drevo">
+                </div>
+                <div class="col span-1-of-2">
+                    <p class="about-company">Firma <strong>Pilanka bola založená v roku 1997</strong>, ako dodávateľ
+                        nástrojov pre pílnice značky Pilana. Postupom času sme sortiment rozšírili o nástroje pre
+                        stolársku a nábytkársku výrobu a to hlavne <strong> frézy na drevo, hobľovacie nože, stopkové
+                            frézy, prípravky pre stolárov a ručné náradie.</strong> <br><br>
+
+                        Dnes patríme medzi najväčších dovozcov a predajcov značiek
+                        <strong>PILANA, CMT, IGM, KARNED, NORMA.</strong> Nami dodávané značky ponúkame malo aj
+                        veľkoobchodne a to priamo u nás, zásielkovo alebo osobným dovozom. <br><br>
+                        Sieť spolupracujúcich maloobchodných predajní zaručuje, že nami ponúkané výrobky si môžete
+                        zakúpiť aj u svojho regionálneho predajcu na <strong>celom území Slovenska.</strong> V rámci
+                        nami dodávaných výrobkov ponúkame každý mesiac nové akcie, preto Vás radi privítame na našich
+                        stránkach aj nabudúce.
+                    </p>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <!-- Location-of shop -->
+        <section class="about-us row jq-info-map">
+            <div class="heading-main">
+                <h2>Predajňa</h2>
+            </div>
+            <div class="section-example">
+                <div class="col span-1-of-2 section-align">
+                    <div>
+                        <p><br> <br></p>
+                    </div>
+                    <div class="shop-question">
+                        <h3>Pítate sa kde nás nájdete?</h3>
+                    </div>
+                    <div class="shop-info">
+                        <p> <br> Predajňa sa nachádza vo dvore rodinného domu,<br>
+                            Adresa: Urálska 2578/14
+                            05801 Poprad - Spišská Sobota</p>
+                    </div>
+                    <div>
+                        <p><br></p>
+                    </div>
+                    <div class="map-info">
+                        <a class="jq-map-info" href="https://goo.gl/maps/3SjU8z2Ujx9KD7gz7" target="_blank">Zobrazenie
+                            na mape</a>
+                    </div>
+                    <div>
+                        <p><br></p>
+                    </div>
+                    <div class="open-time">
+                        <div class="days-a">
+                            <p class="open-weight">Pondelok a Piatok</p>
+                            <p class="open-weight-b">8.00 - 12.00 13.00 - 16.00</p>
+                        </div>
+                        <div class="days-b">
+                            <p class="open-weight">Utorok, Streda, Štvrtok</p>
+                            <p class="open-weight-b">Po telefonickom dohovore</p>
+                        </div>
+                        <div class="days-c">
+                            <p class="open-weight">Sobota, Nedeľa</p>
+                            <p class="open-weight-b">Zatvorené</p>
+                        </div>
+                        <div>
+                            <p><br></p>
+                        </div>
+                        <div class="open-time">
+                            <p>Nájdete u nás široký sortiment náradia,</p>
+                            <p>za priaznive ceny.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-2 map-navigation ">
+                    <iframe class="map-navigation-2 jq-map"
+                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d41828.38920265807!2d20.300725!3d49.06242!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1bc7d5d02dbb73db!2sPilanka%20spol.s%20r.o.!5e0!3m2!1ssk!2ssk!4v1662143029115!5m2!1ssk!2ssk" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <img class="map-navigation-1 jq-image-shop" src="images/2020-11-09.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Product        -->
+        <section class="about-us row product-for-destop">
+            <div class="heading-main">
+                <h2>Produkty</h2>
+            </div>
+            <!-- product of saw with carbid -->
+            <div class="section-example">
+                <div class="name-of-product">
+                    <h3>Pílové kotúče so spekaným karbidom</h3>
+                </div>
+                <div>
+                    <div class="col span-1-of-2 product-pictures">
+                        <img src="/images/img_wood-removebg-preview.png" alt="">
+                    </div>
+                    <div class="col span-1-of-2 product-name-mobile">
+                        <ul class="product-name">
+                            <li>Pilové kotúče na pozdĺžne rezy</li>
+                            <li>Pílove kotúče na priečne rezy</li>
+                            <li>Pílové kotúče skracovacie</li>
+                            <li>Pílove kotúče drážkovacie</li>
+                            <li>Pílové kotúče s diamantovím britom (PKD)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Product of saw non carbid -->
+        <div>
+            <p><br></p>
+        </div>
+        <section class="about-us row product-for-destop">
+            <div class="section-example">
+                <div class="name-of-product">
+                    <h3>Pílové kotúče ceľoocelové</h3>
+                </div>
+                <div>
+                    <div class="col span-1-of-2 ">
+                        <ul class="product-name">
+                            <li>Pilové kotúče na pozdĺžne rezy</li>
+                            <li>Pílove kotúče na priečne rezy</li>
+                            <li>Pílové kotúče skracovacie</li>
+                            <li>Pásové píly</li>
+                            <li>Rámove píly</li>
+                        </ul>
+                    </div>
+                    <div class="col span-1-of-2">
+                        <img src="/images/img_sb-removebg-preview.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Product of hand saw -->
+        <div>
+            <p><br></p>
+        </div>
+        <section class="about-us row product-for-destop">
+            <div class="section-example">
+                <div class="name-of-product">
+                    <h3>Ručne náradie</h3>
+                </div>
+                <div>
+                    <div class="col span-1-of-2">
+                        <img src="/images/img_tools-removebg-preview.png" alt="">
+                    </div>
+                    <div class="col span-1-of-2">
+                        <ul class="product-name">
+                            <li>Ručne nástroje pre stolárov</li>
+                            <li>Ručne nástroje pre záhradkárov</li>
+                            <li>Ručne nástroje pre stavbárov</li>
+                            <li>Ručne nástroje pre kovoobrábanie</li>
+                            <li>Ručne nástroje pre mäsiarov</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Product of big cutter -->
+        <div>
+            <p><br></p>
+        </div>
+        <section class="about-us rowc product-for-destop">
+            <!-- <div class="heading-main">
+                 <h2>Produkty</h2>
+             </div> -->
+            <div class="section-example">
+                <div class="name-of-product">
+                    <h3>Frézy na drevo</h3>
+                </div>
+                <div>
+                    <div class="col span-1-of-2">
+                        <ul class="product-name">
+                            <li>Drážkovacie frézy</li>
+                            <li>Uhlové frézy</li>
+                            <li>Hobľovacie válce</li>
+                            <li>Frézy na dvere a okná</li>
+                            <li>Výplňové frézy</li>
+                        </ul>
+                    </div>
+                    <div class="col span-1-of-2">
+                        <img src="/images/frezy na drevo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Product of big cutter -->
+        <div>
+            <p><br></p>
+        </div>
+        <section class="about-us row product-for-destop">
+
+            <div class="section-example">
+                <div class="name-of-product">
+                    <h3>Stopkové nástroje</h3>
+                </div>
+                <div>
+                    <div class="col span-1-of-2">
+                        <img src="/images/StopkoveNastroje.png" alt="">
+                    </div>
+                    <div class="col span-1-of-2">
+                        <ul class="product-name">
+                            <li>Drážkovacie frézy</li>
+                            <li>Uhlové frézy</li>
+                            <li>žiletkové frézy (VBD)</li>
+                            <li>Frézy pre CNC stroje</li>
+                            <li>Diamantové frézy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- product for mobile  -->
+        <section class="about-us row product-for-mobile">
+            <div class="heading-main">
+                <h2>Produkty</h2>
+            </div>
+            <!-- product of saw with carbid -->
+            <div class="section-example">
+                <div class="name-of-product">
+                    <h3>Pílové kotúče so spekaným karbidom</h3>
+                </div>
+                <div>
+                    <img src="/images/img_wood-removebg-preview.png" alt="">
+                </div>
+                <div>
+                    <div class="product-mob-pict">
+                        <ul class="col span-1-of-2 ul-lh">
+                            <li>Pilové kotúče na pozdĺžne rezy</li>
+                            <li>Pílove kotúče na priečne rezy</li>
+                            <li>Pílové kotúče skracovacie</li>
+                        </ul>
+                        <ul class="col span-1-of-2 ul-rh">
+                            <li>Pílove kotúče drážkovacie</li>
+                            <li>Pílové kotúče s diamantovím britom (PKD)</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <div class="border-bottom"></div>
+        <!-- Product of saw non carbid -->
+        <div>
+            <p><br></p>
+        </div>
+        <section class="about-us row product-for-mobile">
+            <div class="section-example">
+                <div class="name-of-product">
+                    <h3>Pílové kotúče ceľoocelové</h3>
+                </div>
+                <div>
+                    <div>
+                        <img src="/images/img_sb-removebg-preview.png" alt="">
+                    </div>
+                    <div class="product-mob-pict ">
+                        <ul class="col span-1-of-2 ul-lh">
+                            <li>Pilové kotúče na pozdĺžne rezy</li>
+                            <li>Pílove kotúče na priečne rezy</li>
+                            <li>Pílové kotúče skracovacie</li>
+                        </ul>
+                        <ul class="col span-1-of-2 ul-lh">
+                            <li>Pásové píly</li>
+                            <li>Rámove píly</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Product of hand saw -->
+        <div>
+            <p><br></p>
+        </div>
+        <section class="about-us row product-for-mobile">
+            <div class="section-example">
+                <div class="name-of-product">
+                    <h3>Ručne náradie</h3>
+                </div>
+
+                <div>
+                    <div>
+                        <img src="/images/img_tools-removebg-preview.png" alt="">
+                    </div>
+
+                    <div class="product-mob-pict">
+                        <ul class="col span-1-of-2 ul-lh">
+                            <li>Ručne nástroje pre stolárov</li>
+                            <li>Ručne nástroje pre záhradkárov</li>
+                            <li>Ručne nástroje pre stavbárov</li>
+                        </ul>
+                        <ul class="col span-1-of-2 ul-lh">
+                            <li>Ručne nástroje pre kovoobrábanie</li>
+                            <li>Ručne nástroje pre mäsiarov</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="border-bottom"></div>
+        <!-- Product of big cutter -->
+        <div>
+            <p><br></p>
+        </div>
+        <section class="about-us row product-for-mobile">
+
+            <div class="section-example">
+                <div class="name-of-product">
+                    <h3>Frézy na drevo</h3>
+                </div>
+                <div>
+                    <div>
+                        <img src="/images/frezy na drevo.png" alt="">
+                    </div>
+                    <div class="product-mob-pict">
+                        <ul class="col span-1-of-2 ul-lh">
+                            <li>Drážkovacie frézy</li>
+                            <li>Uhlové frézy</li>
+                            <li>Hobľovacie válce</li>
+                        </ul>
+                        <ul class="col span-1-of-2 ul-lh">
+                            <li>Frézy na dvere a okná</li>
+                            <li>Výplňové frézy</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <div class="border-bottom"></div>
+
+        <!-- Product of big cutter -->
+        <div>
+            <p><br></p>
+        </div>
+        <section class="about-us row product-for-mobile">
+
+            <div class="section-example">
+                <div class="name-of-product">
+                    <h3>Stopkové nástroje</h3>
+                </div>
+                <div>
+                    <div>
+                        <img src="/images/StopkoveNastroje.png" alt="">
+                    </div>
+                    <div class="product-mob-pict">
+                        <ul class="col span-1-of-2 ul-lh">
+                            <li>Drážkovacie frézy</li>
+                            <li>Uhlové frézy</li>
+                            <li>žiletkové frézy (VBD)</li>
+                        </ul>
+                        <ul class="col span-1-of-2 ul-lh">
+                            <li>Frézy pre CNC stroje</li>
+                            <li>Diamantové frézy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="border-bottom"></div>
+
+        <!-- GDPR -->
+        <section class="about-us row">
+            <div class="heading-main">
+                <h2>Ochrana osobných údajov</h2>
+            </div>
+            <div class="section-example">
+                <div class="gdpr-main">
+                    <h3>1.&nbspZákladne ustanovenia</h3>
+                </div>
+                <div>
+                    <div>
+                        <p> 1.1. &nbsp Prevádzkovateľom podľa čl. 4 bod 7 nariadenia Európskeho parlamentu a Rady (EÚ)
+                            2016/679 o ochrane fyzických osôb pri spracúvaní osobných údajov a o voľnom pohybe týchto
+                            údajov (ďalej len „GDPR“) je spoločnosť Pilanka, spol s r.o., IČO: 36444812 so sídlom
+                            Uralská 2578/14, Poprad - Spišská Sobota zapísaná v Obchodnom registri na Okresnom súde
+                            Prešov, vložka 10153/P (ďalej len „prevádzkovateľ“). <br><br>
+
+                            1.2.&nbsp Kontaktné údaje prevádzkovateľa sú: <br>
+                            • adresa: Uralská 2578/14, Poprad - Spišská Sobota <br>
+
+                            • email: pilanka@pilanka.sk <br>
+                            • telefón: +421 52/7763271 <br><br>
+
+                            1.3. &nbsp Osobnými údajmi sa rozumejú akékoľvek informácie týkajúce sa identifikovanej
+                            alebo identifikovateľnej fyzickej osoby (ďalej len “dotknutá osoba”); identifikovateľná
+                            fyzická osoba je osoba, ktorú možno identifikovať priamo alebo nepriamo, najmä odkazom na
+                            identifikátor, ako je meno, identifikačné číslo, lokalizačné údaje, online identifikátor,
+                            alebo odkazom na jeden či viaceré prvky, ktoré sú špecifické pre fyzickú, fyziologickú,
+                            genetickú, mentálnu, ekonomickú, kultúrnu alebo sociálnu identitu tejto fyzickej osoby.
+                            <br><br>
+
+                            1.4.&nbsp Prevádzkovateľ menoval zodpovednú osobu pre ochranu osobných údajov. Zodpovednými
+                            osobami pre ochranu osobných údajov sú Peter Madáč, Milan Šlampla.
+                        </p>
+                    </div>
+                    <div>
+                        <p><br></p>
+                    </div>
+                    <div class="gdpr-main">
+                        <h3>2.&nbspZDROJE A KATEGÓRIE SPRACOVÁVANÝCH OSOBNÝCH ÚDAJOV</h3>
+                    </div>
+                    <div>
+                        <p> 2.1. &nbsp Prevádzkovateľ spracováva osobné údaje, ktoré ste mu poskytli alebo osobné údaje,
+                            ktoré získal na základe plnenia vašej objednávky alebo zmluvy. <br><br>
+
+                            2.2. &nbsp Prevádzkovateľ spracováva nasledovné osobné údaje: <br><br>
+                            • meno, priezvisko <br>
+                            • emailovú adresu <br>
+                            • telefónne číslo <br>
+                            • adresu/sídlo <br></p>
+                    </div>
+                    <div>
+                        <p><br></p>
+                    </div>
+                    <div class="gdpr-main">
+                        <h3>3. &nbsp ZÁKONNÝ DÔVOD A ÚČEL SPRACOVANIA OSOBNÝCH ÚDAJOV</h3>
+                    </div>
+                    <div>
+                        <p> 3.1. &nbsp Zákonným dôvodom spracovania osobných údajov je <br>
+                            • &nbsp plnenie zmluvy medzi vami a prevádzkovateľom podľa čl. 6 ods. 1 písm. b) GDPR, <br>
+                            • &nbsp oprávnený záujem prevádzkovateľa na poskytovaní priameho marketingu (najmä pre
+                            zasielanie obchodných oznámení a newsletterov) podľa čl. 6 ods. 1 písm. f) GDPR, <br>
+                            • &nbsp váš súhlas so spracovaním pre účely poskytovania priameho marketingu (najmä pre
+                            zasielanie obchodných oznámení a newsletterov) podľa čl. 6 ods. 1 písm. a) GDPR, <br><br>
+
+                            3.2. &nbsp Účelom spracovania osobných údajov je: <br>
+                            • &nbsp vybavenie vašej objednávky a výkon práv a povinností vyplývajúcich zo zmluvného
+                            vzťahu medzi vami a prevádzkovateľom; pri objednávke sú vyžadované osobné údaje, ktoré sú
+                            nutné pre úspešné vybavenie objednávky (meno, adresa, emailový a telefonický kontakt),
+                            poskytnutie osobných údajov je nutnou požiadavkou pre uzavretie a plnenie zmluvy, bez
+                            poskytnutia osobných údajov nie je možné zmluvu uzavrieť, či ju zo strany prevádzkovateľa
+                            plniť, <br>
+                            • &nbsp zasielanie obchodných oznámení a vykonávanie ďalších marketingových aktivít
+                            <br><br>
+                            3.3. &nbsp Zo strany prevádzkovateľa nedochádza k automatickému individuálnemu rozhodovaniu
+                            v zmysle čl. 22 GDPR.
+                        </p>
+                    </div>
+                    <div>
+                        <p><br></p>
+                    </div>
+                    <div class="gdpr-main">
+                        <h3>4.&nbsp DOBA UCHOVÁVANIA ÚDAJOV</h3>
+                    </div>
+                    <div>
+                        <p> 4.1. &nbsp Prevádzkovateľ uchováva osobné údaje <br>
+                            • &nbsp po dobu nevyhnutnú k výkonu práv a povinností vyplývajúcich zo zmluvného vzťahu
+                            medzi Vami a prevádzkovateľom a uplatňovanie nárokov z týchto zmluvných vzťahov (ďalej po
+                            dobu 10 rokov od ukončenia zmluvného vzťahu), <br>
+                            • &nbsp po dobu kým nie je odvolaný súhlas so spracovaním osobných údajov pre účely
+                            marketingu, najdlhšie však 2 roky, pokiaľ sú údaje spracovávané na základe súhlasu. <br><br>
+
+                            4.2. &nbsp Po uplynutí doby uchovávania osobných údajov prevádzkovateľ osobné údaje vymaže.
+                        </p>
+                    </div>
+                    <div>
+                        <p><br></p>
+                    </div>
+                    <div class="gdpr-main">
+                        <h3>5. &nbsp ĎALŠÍ PRÍJEMCOVIA OSOBNÝCH ÚDAJOV</h3>
+                    </div>
+                    <div>
+                        <p> 5.1.&nbsp Ďalšími príjemcami vašich osobných údajov budú : <br><br>
+
+                            - &nbspposkytovateľ eshopovej platformy lioESHOP, Lemon Lion, s.r.o. sídlom: 1. mája 1264/9,
+                            Púchov 020 01 <br>
+                            - &nbspprepravné a kuriérske spoločnosti <br>
+
+                            - &nbspposkytovateľ účtovných služieb <br><br>
+
+                            5.2. &nbsp Poskytovateľ nemá v úmysle poskytnúť osobné údaje do tretej krajiny (do krajiny
+                            mimo EÚ) alebo medzinárodnej organizácii.</p>
+                    </div>
+                    <div>
+                        <p><br></p>
+                    </div>
+                    <div class="gdpr-main">
+                        <h3>6. &nbsp COOKIES</h3>
+                    </div>
+                    <div>
+                        <p> 6.1. &nbsp Prevádzkovateľ používa na svojej webovej stránke súbory cookies, ktoré sú použité
+                            na účely: <br>
+                            • &nbsp základnej funkčnosti webových stránok,
+                            • &nbsp merania návštevnosti webových stránok a vytváranie štatistík, týkajúcich sa
+                            návštevnosti a správania návštevníkov webových stránok. <br> <br>
+
+                            6.2. &nbsp Zber cookies na účely uvedené v ods. 6.1 môže byť považovaný za spracovanie
+                            osobných údajov. Takéto spracovanie je možné na základe zákonného dôvodu – oprávneného
+                            záujmu prevádzkovateľa podľa čl. 6 ods. 1 písm. f) GDPR. <br> <br>
+
+                            6.3. &nbsp Cookies, ktoré sa zbierajú za účelom merania návštevnosti webu a vytvárania
+                            štatistík týkajúcich sa návštevnosti a správania návštevníkov na webe sú posudzované v
+                            podobe hromadného celku a v anonymnej podobe, ktorá neumožňuje identifikáciu jednotlivca.
+                            <br><br>
+
+                            6.4. &nbsp Webové stránky je možné používať aj v režime, ktorý neumožňuje zbieranie údajov o
+                            správaní návštevníkov webu – tento režim je možný buď nastaviť v rámci nastavenia
+                            prehliadača, alebo je možné vzniesť proti takémuto zberu na základe oprávneného záujmu
+                            prevádzkovateľa námietku podľa čl. 21 GDPR. <br><br>
+
+                            6.5. &nbsp Cookies nevyhnutné pre funkčnosť webu sú uchované len po dobu nevyhnutne nutnú
+                            pre fungovanie webu (zvyčajne do ukončenia relácie s webovým prehliadačom).
+                            <br><br>
+                            6.6. &nbsp Ak podá návštevník stránok námietku proti spracovaniu technických cookies,
+                            nevyhnutných pre zabezpečenie základnej funkčnosti webu, nie je možné v takom prípade
+                            zaručiť plnú funkčnosť a kompatibilitu webových stránok.
+                            <br><br>
+                            6.7. &nbsp Zhromaždené cookies súbory môžu byť spracované ďalšími sprostredkovateľmi:
+                            • &nbsp poskytovateľ služby Google Analytics, prevádzkovanej spoločnosťou Google LLC, sídlom
+                            1600 Amphitheatre Parkway Mountain View, CA 94043, USA. Ďalšie informácie o ochrane osobných
+                            údajov spracúvaných službou Google Analytics je možné nájsť na https://policies.google.com/
+                            <br>
+                            • &nbsp poskytovateľ služby Facebook Like, prevádzkovanej spoločnosťou Facebook Ireland
+                            Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Ireland. Ďalšie informácie o
+                            ochrane osobných údajov spracúvaných službou Facebook je možné nájsť na:
+                            https://sk-sk.facebook.com/privacy/explanation
+                        </p>
+                    </div>
+                    <div>
+                        <p><br></p>
+                    </div>
+                    <div class="gdpr-main">
+                        <h3>7. &nbsp VAŠE PRÁVA</h3>
+                    </div>
+                    <div>
+                        <p> 7.1. &nbsp Za podmienok ustanovených v GDPR máte: <br>
+                            • &nbsp právo na prístup ku svojim osobným údajom podľa čl. 15 GDPR,<br>
+                            • &nbsp právo na opravu osobných údajov podľa čl. 16 GDPR, prípadne obmedzenie spracovania
+                            podľa čl. 18 GDPR,<br>
+                            • &nbsp právo na výmaz osobných údajov podľa čl. 17 GDPR,<br>
+                            • &nbsp právo vzniesť námietku proti spracovaniu podľa čl. 21 GDPR,
+                            • &nbsp právo na prenosnosť údajov podľa čl. 20 GDPR,<br>
+                            • &nbsp právo odvolať súhlas so spracovaním písomne alebo elektronicky na adresu alebo email
+                            prevádzkovateľa uvedený v odstavci 1.2 týchto <br><br>
+
+                            7.2. &nbsp Ďalej máte právo podať sťažnosť na Úrad pre ochranu osobných údajov v prípade, ak
+                            sa domnievate, že bolo porušené vaše právo na ochranu osobných údajov.</p>
+                    </div>
+                    <div>
+                        <p><br></p>
+                    </div>
+                    <div class="gdpr-main">
+                        <h3>8. &nbsp PODMIENKY ZABEZPEČENIA OSOBNÝCH ÚDAJOV</h3>
+                    </div>
+                    <div>
+                        <p> 8.1.&nbsp Prevádzkovateľ prehlasuje, že prijal všetky potrebné technické a organizačné
+                            opatrenia k zabezpečeniu ochrany osobných údajov. <br><br>
+
+                            8.2.&nbsp Prevádzkovateľ prijal technické opatrenia k zabezpečeniu dátových úložísk a
+                            úložísk osobných údajov v listinnej podobe, predovšetkým antivírusový program. <br><br>
+
+                            8.3.&nbsp Prevádzkovateľ prehlasuje, že k osobným údajom majú prístup len ním poverené
+                            osoby.</p>
+                    </div>
+                    <div>
+                        <p><br></p>
+                    </div>
+                    <div class="gdpr-main">
+                        <h3>9. &nbsp ZÁVEREČNÉ USTANOVENIA</h3>
+                    </div>
+                    <div>
+                        <p> 9.1.&nbsp Odoslaním objednávky z internetového objednávkového formulára potvrdzujete, že ste
+                            sa oboznámili s podmienkami ochrany osobných údajov, a že ich v celom rozsahu prijímate.
+                            <br><br>
+
+                            9.2. &nbsp S týmito podmienkami súhlasíte zaškrtnutím súhlasu prostredníctvom internetového
+                            formulára. Zaškrtnutím súhlasu potvrdzujete, že ste sa oboznámili s podmienkami ochrany
+                            osobných údajov, a že ich v celom rozsahu prijímate. <br><br>
+
+                            9.3. &nbsp Prevádzkovateľ je oprávnený tieto podmienky zmeniť. Novú verziu podmienok ochrany
+                            osobných údajov zverejní na svojich internetových stránkach.
+                        </p>
+                        <br><br>
+                        <p>Tieto podmienky nadobúdajú účinnosť dňa 25.05.2018.</p>
+                    </div>
+                </div>
+        </section>
+        <section class=" referencie ">
+            <div class="heading-main">
+                <h2 class="merge-down">Recenzie</h2>
+            </div>
+            <div class="recension">
+                <div class="col span-1-of-3 one-refence ">
+
+                    <p class="text-of-recenzie">
+                        ..velky vyber naradia pre stolarov, odborna obsluha, dobre ceny! servis naradia (brusenie pil).
+                    </p>
+
+                    <img class="picture-of-recent" src="/images/287728684_814190556236191_3233577028413477193_n.jpg"
+                        alt="">
+                    <p class="name-of-recent">Rastislav Madáč</p>
+                </div>
+
+                <div class="col span-1-of-3 one-refence display-none">
+                    <div class="recent">
+                        <p class="text-of-recenzie">
+                            ..velky vyber naradia pre stolarov, odborna obsluha, dobre ceny! servis naradia (brusenie
+                            pil).
+                        </p>
+
+                        <img class="picture-of-recent" src="/images/287728684_814190556236191_3233577028413477193_n.jpg"
+                            alt="">
+                        <p class="name-of-recent">Rastislav Madáč</p>
+                    </div>
+                </div>
+                <div class="col span-1-of-3 one-refence display-none">
+                    <div class="recent">
+                        <p class="text-of-recenzie">
+                            ..velky vyber naradia pre stolarov, odborna obsluha, dobre ceny! servis naradia (brusenie
+                            pil).
+                        </p>
+
+                        <img class="picture-of-recent" src="/images/287728684_814190556236191_3233577028413477193_n.jpg"
+                            alt="">
+                        <p class="name-of-recent">Rastislav Madáč</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PhotoGallery -->
+        <section class="about-us row photo-gallery">
+            <div class="heading-main">
+                <h2>Fotogaléria</h2>
+                <h5 class="jq-test link-photogalery">Otvorte fotogalériu</h5>
+            </div>
+            <!-- Frist-row-saws -->
+            <div>
+                <picture class="photo-segment">
+                    <div class="col span-1-of-4 photo-segment-mobile">
+                        <img src="/images/photoGalery/Saws/539429-500x500.jpg" alt="Saw1">
+                    </div>
+                    <div class="col span-1-of-4 photo-segment-mobile">
+                        <img src="/images/photoGalery/Saws/pilanapilovy-kotouc-sk-5381-wz-opti-original86-500x500.jpg"
+                            alt="Saw2">
+                    </div>
+                    <div class="col span-1-of-4 photo-segment-mobile">
+                        <img src="/images/photoGalery/Saws/pilovy-kotouc-sk-5380-kxz-original7-500x500.jpg" alt="Saw3">
+                    </div>
+                    <div class="col span-1-of-4 photo-segment-mobile">
+                        <img src="/images/photoGalery/Saws/pilovy-kotouc-sk-5380-kxz-original7-500x500.jpg" alt="Saw4">
+                    </div>
+                </picture>
+                <!-- Second-row-cutters              -->
+                <picture class="photo-segment jq-hide jq-show">
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/cutters/angle.jpg" alt="cutter1">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/cutters/freza-ctvrtkruhova-konkav-konvex-s-vbd-small_product.jpg"
+                            alt="cutter2">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/cutters/images.jpg" alt="Cutter3">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/cutters/zasmolka.jpg" alt="cutter4">
+                    </div>
+                </picture>
+                <!-- Thirth-row-drill              -->
+                <picture class="photo-segment jq-hide jq-show">
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/drill/drazkovacie-350x350.jpg" alt="drill1">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/drill/neprech-350x350-350x350.jpg" alt="drill2">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/drill/pictureprovider-350x350.jpg" alt="drill3">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/drill/Sukovnik-350x350.jpg" alt="drill4">
+                    </div>
+                </picture>
+                <!-- Fourth-row-cutters-and-knives              -->
+                <picture class="photo-segment jq-hide jq-show">
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/Glue/lep123600153-350x350.jpg" alt="glue1">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/Glue/lepidlaktextu-350x350.jpg" alt="glue2">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/Knives/adrsarobojstrannenože1-350x350.jpg  " alt="knives1">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/Knives/hoblovacienozeadresar-350x350.jpg" alt="knives2">
+                    </div>
+                </picture>
+                <!-- Fidth-row-carpentry-preparations              -->
+                <picture class="photo-segment jq-hide jq-show">
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/Carpentry-preparations/cinkovaciepripravkyadresar-350x350.jpg"
+                            alt="carpentry1">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/Carpentry-preparations/fk6509-350x350.jpg" alt="carpentry2">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/Carpentry-preparations/FMB52557-350x350.jpg  " alt="carpentry3">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile ">
+                        <img src="/images/photoGalery/Carpentry-preparations/frezovanieelipsadresar-350x350.jpg"
+                            alt="carpentry4">
+                    </div>
+                </picture>
+                <!-- Sixth-Elektric-tools              -->
+                <picture class="photo-segment jq-hide jq-show">
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/Elektric_tools/57642611-350x350.jpg" alt="festool_domino">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile ">
+                        <img src="/images/photoGalery/Elektric_tools/hlbr-350x350.jpg" alt="sharpener">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/Elektric_tools/odsavanie hl-350x350.jpg  " alt="odsavanie">
+                    </div>
+                    <div class="col span-1-of-4  photo-segment-mobile">
+                        <img src="/images/photoGalery/Elektric_tools/sran225-350x350.jpg" alt="Srankovacka">
+                    </div>
+                </picture>
+            </div>
+
+        </section>
+        <!-- Contact form-->
+        <section class="about-us row photo-gallery">
+            <div class="heading-main">
+                <h2>Kontaktný formulár</h2>
+            </div>
+            <form action="" class="contact-form row">
+                <input type="text" placeholder="Meno napr: Rastislav"><br>
+                <input type="text" placeholder="Priezvisko napr: Madáč"><br>
+                <input type="mail" placeholder="Email meno@nieco.sk"><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Vaša správa"></textarea><br>
+                <input type="submit" value="Odoslať">
+
+            </form>
+        </section>
+        </div>
+    </main>
+    <!-- Footer-page     -->
+    <footer class="footer-page">
+        <div class="copy-write">
+            <p>Copywrite &copy; 2022 Pilanka spol.s.r.o.. Všetky práva vyhradené.
+            </p>
+        </div>
+        <div class="icons-all">
+            <div class="link-icon">
+                <a href="https://www.instagram.com/" target="_blank"><img class="social-icon"
+                        src="/images/icons/1217086_instagram_icon.png" alt="instagranIco"></a>
+            </div>
+            <div class="link-icon">
+                <a href="https://www.youtube.com/" target="_blank"><img class="social-icon"
+                        src="/images/icons/1466654_badge_logo_multimedia_player_social_icon.png" alt="YotubeIco"></a>
+            </div>
+            <div class="link-icon">
+                <a href="https://sk.pinterest.com/" target="_blank"><img class="social-icon"
+                        src="/images/icons/1466656_badge_logo_p_p icon_pin_icon.png" alt="PinterestIco"></a>
+            </div>
+            <div class="link-icon">
+                <a href="https://www.facebook.com/" target="_blank"><img class="social-icon"
+                        src="/images/icons/2907779_facebook_media_network_social_ui_icon.png" alt="FacebookIco"></a>
+            </div>
+            <div class="link-icon">
+                <a href="https://twitter.com/i/flow/login" target="_blank"><img class="social-icon"
+                        src="/images/icons/8598119_twiter_chat_message_comment_icon.png" alt="TweetIco"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer-page-mobile     -->
+    <footer class="footer-page-mobile">
+        <div class="copy-write copy-write-mobile">
+            <p> &copy; 2022 Pilanka spol.s.r.o.
+            </p>
+        </div>
+        <div class="icons-all-mobile">
+            <div class="link-icon link-icon-mobile">
+                <a href="https://www.instagram.com/" target="_blank"><img class="social-icon-mobile"
+                        src="/images/icons/1217086_instagram_icon.png" alt="instagranIco"></a>
+            </div>
+            <div class="link-icon link-icon-mobile">
+                <a href="https://www.youtube.com/" target="_blank"><img class="social-icon-mobile"
+                        src="/images/icons/1466654_badge_logo_multimedia_player_social_icon.png" alt="YotubeIco"></a>
+            </div>
+            <div class="link-icon link-icon-mobile">
+                <a href="https://sk.pinterest.com/" target="_blank"><img class="social-icon-mobile"
+                        src="/images/icons/1466656_badge_logo_p_p icon_pin_icon.png" alt="PinterestIco"></a>
+            </div>
+            <div class="link-icon link-icon-mobile">
+                <a href="https://www.facebook.com/" target="_blank"><img class="social-icon-mobile"
+                        src="/images/icons/2907779_facebook_media_network_social_ui_icon.png" alt="FacebookIco"></a>
+            </div>
+            <div class="link-icon link-icon-mobile">
+                <a href="https://twitter.com/i/flow/login" target="_blank"><img class="social-icon-mobile"
+                        src="/images/icons/8598119_twiter_chat_message_comment_icon.png" alt="TweetIco"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

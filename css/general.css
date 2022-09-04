@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+
+html {
+  font-size: 100%;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  margin: 0;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+a {
+  color: inherit;
+  background-color: transparent;
+}
+
+img {
+  border-style: none;
+  max-width: 100%;
+  height: auto;
+}
