@@ -1,0 +1,28 @@
+.features {
+  text-align: center;
+  color: black;
+}
+.features h2:after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid orangered;
+  margin: 0 12rem;
+  padding-top: 0.53rem;
+}
+.feature {
+  margin: 0 1rem;
+}
+.content p {
+  font-size: clamp(0.8rem, 8vw, 1.25rem);
+  text-align: center;
+}
+
+@media screen and (min-width: 1330px) {
+  .feature {
+    display: flex;
+  }
+  .content p {
+    max-width: 70ch;
+    font-size: calc(19px + 6 * ((100vw - 1330px) / 400));
+  }
+}

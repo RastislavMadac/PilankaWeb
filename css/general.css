@@ -34,3 +34,16 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* heading of sections */
+.features {
+  text-align: center;
+  color: black;
+}
+.features h2:after {
+  content: "";
+  display: block;
+  border-bottom: 4px solid orangered;
+  max-width: 150px;
+  margin: 10px auto;
+}
