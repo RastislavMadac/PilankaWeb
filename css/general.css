@@ -27,42 +27,11 @@ strong {
 a {
   color: inherit;
   background-color: transparent;
+  text-decoration: none;
 }
 
 img {
   border-style: none;
   max-width: 100%;
   height: auto;
-}
-h2 {
-  font-size: 1.65rem;
-}
-
-h3 {
-  font-size: clamp(0.8rem, 8vw, 1.25rem);
-  font-weight: 600;
-}
-p {
-  margin: 0;
-  font-size: clamp(0.8rem, 8vw, 1.25rem);
-  text-align: center;
-}
-/* heading of sections */
-.features {
-  text-align: center;
-  color: black;
-}
-.features h2:after {
-  content: "";
-  display: block;
-  border-bottom: 4px solid orangered;
-  max-width: 150px;
-  margin: 10px auto;
-}
-figure img {
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-}
-figure {
-  margin-right: 0;
 }
