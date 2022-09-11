@@ -5,14 +5,23 @@
     align-items: center;
     gap: 10px;
   }
-  .imges img {
+  .images img {
     position: relative;
     max-width: 200%;
     right: 260px;
   }
+  /* shop-location */
+
+  .shop-flex {
+    flex-direction: row-reverse;
+  }
+  .shop-text {
+    flex-grow: 1;
+    align-self: center;
+  }
 }
 @media only screen and (max-width: 1080px) {
-  .imges img {
+  .images img {
     right: 199px;
   }
 }
