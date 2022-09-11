@@ -20,6 +20,16 @@
     align-self: center;
   }
 }
+@media only screen and (min-width: 980px) {
+  /* product */
+  .flex-2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-2:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
 @media only screen and (max-width: 1080px) {
   .images img {
     right: 199px;

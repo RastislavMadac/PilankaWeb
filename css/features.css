@@ -39,5 +39,27 @@
 .product-name {
   margin-left: auto;
   margin-right: auto;
-  width: 75ch;
+  width: 64ch;
+}
+
+.images-2 {
+  margin: 0 40px;
+}
+
+/* 4.product */
+.product-area {
+  margin: 60px 0;
+}
+.product-name h2 {
+  padding: 5px 0 15px 0;
+}
+.product-name p {
+  text-align: left;
+  margin: 0 0 0 5px;
+}
+
+/* gdpr */
+.gdpr-main {
+  text-align: left;
+  margin: 5px 40px;
 }
