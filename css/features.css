@@ -159,8 +159,10 @@ input[type="submit"] {
   position: absolute;
   top: 0;
   left: 0px;
-  opacity: 0;
 }
-.social-r-icon:hover {
-  opacity: 1;
+.social-a-ico {
+  transition: all 0.4s;
+}
+.social-a-ico:hover {
+  border: 10px solid transparent;
 }
