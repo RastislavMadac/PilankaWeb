@@ -30,6 +30,7 @@ body {
   color: #000;
   font-family: "Barlow Semi Condensed", sans-serif;
   margin: 0;
+  max-width: 1660px;
 }
 h1 {
   font-size: var(--step-3);
