@@ -40,7 +40,7 @@ header {
 .burger {
   position: relative;
   top: 11px;
-  left: 90%;
+  left: 85%;
   display: none;
 }
 .burger div {
@@ -50,4 +50,45 @@ header {
   margin: 0 5px 5px 5px;
 
   transition: all 0.3s ease;
+}
+.logo {
+  width: 404px;
+  position: relative;
+  top: 194px;
+  left: 10%;
+}
+.buttons {
+  position: absolute;
+  top: 461px;
+  left: 154px;
+}
+.buttons a {
+  text-decoration: none;
+  padding: 50px;
+  margin: 10px;
+}
+.button-sets {
+  padding: 1px 0 6px;
+  border-radius: 10px;
+}
+.button-1 {
+  background-color: transparent;
+  margin-right: 5px;
+}
+.button-2 {
+  background-color: orangered;
+}
+.button-2 a {
+  color: azure;
+}
+.button-1 a {
+  color: azure;
+}
+.button-1:hover {
+  background-color: rgba(193, 60, 12, 0.827);
+  border: 2px solid rgb(94, 88, 88);
+}
+.button-2:hover {
+  background-color: transparent;
+  border: 2px solid rgb(94, 88, 88);
 }

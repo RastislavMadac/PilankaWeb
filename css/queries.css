@@ -100,6 +100,12 @@
   }
 }
 @media screen and (max-width: 1013px) {
+  /* logo */
+  .logo {
+    width: 188px;
+    top: 10px;
+    left: 3%;
+  }
   /* menu */
   .nav-links {
     /* position: absolute; */
@@ -179,5 +185,26 @@
   .nav-links {
     border-radius: 39px 0 0 18px;
     gap: 5px;
+  }
+}
+@media screen and (max-width: 1356px) {
+  .buttons {
+    top: 461px;
+    left: 79px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  /* logo */
+  .logo {
+    width: 188px;
+    top: 57px;
+    left: 6%;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 351px;
+    left: 55px;
   }
 }
