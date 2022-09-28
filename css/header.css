@@ -1,0 +1,53 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(/images/saw-blade-gee55053c2_1920.jpg);
+
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 55% 0%;
+  margin: 0 auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: clamp(4.72rem, 2vh, 5.32rem);
+  z-index: 200;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  padding: 3px 10px 1px 10px;
+  position: fixed;
+  width: 100%;
+  max-width: inherit;
+}
+.nav-links li {
+  text-align: center;
+  flex-grow: 1;
+  height: 40px;
+}
+.nav-links a {
+  font-size: var(--step-3);
+
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: orangered;
+}
+
+.burger {
+  position: relative;
+  top: 11px;
+  left: 90%;
+  display: none;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(226, 226, 226);
+  margin: 0 5px 5px 5px;
+
+  transition: all 0.3s ease;
+}

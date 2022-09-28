@@ -6,19 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Pilanka nástroje</title>
+    <link
+      rel="shortcut icon"
+      href="/images/icons/favicon-16x16.png"
+      type="image/x-icon"
+    />
 
-    <link rel="stylesheet" href="/css/features.css" />
     <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/features.css" />
+    <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/queries.css" />
   </head>
-  <!-- About company -->
-  <!-- <section class="heading-main"><h1>Predajňa</h1></section> -->
 
   <body>
-    <header></header>
+    <header>
+      <nav class="main-nav">
+        <div class="logo">
+          <img src="/images/" alt="" />
+        </div>
+        <ul class="menu nav-links">
+          <li><a class="nav-ancor" href="#historia"> História</a></li>
+          <li><a class="nav-ancor" href="#predajna">Predajňa</a></li>
+          <li><a class="nav-ancor" href="#produkty">Produkty</a></li>
+          <li><a class="nav-ancor" href="#gdpr">GDPR</a></li>
+          <li><a class="nav-ancor" href="#recenzie">Recenzie</a></li>
+          <li><a class="nav-ancor" href="#fotogaleria">Fotogaléria</a></li>
+          <li>
+            <a class="nav-ancor nav-ancor-contact" href="#kontakt">Kontakt</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
     <main class="container">
       <!-- About company -->
-      <section class="heading-main">
+      <section id="historia" class="heading-main">
         <h1>História spoločnosti</h1>
         <div class="flex-1">
           <figure class="images">
@@ -50,7 +77,7 @@
         </div>
       </section>
       <!-- Shop location -->
-      <section class="heading-main">
+      <section id="predajna" class="heading-main">
         <h1>Predajňa</h1>
         <div class="flex-1 shop-flex">
           <figure class="images-shop">
@@ -76,7 +103,7 @@
 
             <div class="map-info">
               <a
-                class="jq-map-info"
+                class="map-info-link"
                 href="https://goo.gl/maps/3SjU8z2Ujx9KD7gz7"
                 target="_blank"
                 >Zobrazenie na mape</a
@@ -102,7 +129,7 @@
         </div>
       </section>
       <!-- produkty -->
-      <section class="heading-main">
+      <section id="produkty" class="heading-main">
         <h1>Produkty</h1>
         <article class="product-area flex-2">
           <!-- product of saw with carbid -->
@@ -178,7 +205,7 @@
           </div>
         </article>
       </section>
-      <section class="heading-main">
+      <section id="gdpr" class="heading-main">
         <h1>Ochrana osobných údajov</h1>
         <div class="gdpr-main">
           <p>
@@ -419,7 +446,7 @@
         </div>
       </section>
       <!-- Feedback -->
-      <section class="heading-main">
+      <section id="recenzie" class="heading-main">
         <h1>Recenzie od zákaznikov</h1>
         <div class="flex-4 background-feedback">
           <!-- 1.feedback -->
@@ -464,21 +491,21 @@
         </div>
       </section>
       <!-- PHOTO-GALLERY -->
-      <section class="heading-main">
+      <section id="fotogaleria" class="heading-main">
         <h1>Fotogaléria</h1>
-        <a class="p-gallery-btn" href="#">Otvorte celú fotohalériu</a>
+
         <picture class="grid-area">
           <!-- saw-carbid-pictures -->
           <figure class="images-shop img-photo-gallery">
             <img src="/images/photoGalery/Saws/539429-500x500.jpg" alt="Saw1" />
           </figure>
-          <figure class="images-shop img-photo-gallery img-photo-gallery-hide">
+          <figure class="images-shop img-photo-gallery">
             <img
               src="/images/photoGalery/Saws/pilanapilovy-kotouc-sk-5381-wz-opti-original86-500x500.jpg"
               alt="Saw2"
             />
           </figure>
-          <figure class="images-shop img-photo-gallery img-photo-gallery-hide">
+          <figure class="images-shop img-photo-gallery">
             <img
               src="/images/photoGalery/Saws/pilovy-kotouc-sk-5380-kxz-original7-500x500.jpg"
               alt="Saw3"
@@ -491,10 +518,10 @@
             />
           </figure>
           <!--  Second-row-cutters -->
-          <figure class="images-shop img-photo-gallery">
+          <figure class="images-shop img-photo-gallery img-photo-gallery-hide">
             <img src="/images/photoGalery/cutters/angle.jpg" alt="cutter1" />
           </figure>
-          <figure class="images-shop img-photo-gallery img-photo-gallery-hide">
+          <figure class="images-shop img-photo-gallery">
             <img
               src="/images/photoGalery/cutters/freza-ctvrtkruhova-konkav-konvex-s-vbd-small_product.jpg"
               alt="cutter2"
@@ -609,7 +636,7 @@
         </picture>
       </section>
       <!-- contact-form -->
-      <section class="heading-main">
+      <section id="kontakt" class="heading-main">
         <h1>Kontaktný formulár</h1>
         <form action="" class="contact-form">
           <input type="text" placeholder="Meno napr: Rastislav" /><br />
