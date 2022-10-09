@@ -48,19 +48,18 @@ header {
   height: 3px;
   background-color: rgb(226, 226, 226);
   margin: 0 5px 5px 5px;
-
   transition: all 0.3s ease;
 }
 .logo {
-  width: 404px;
-  position: relative;
-  top: 194px;
-  left: 10%;
+  max-width: 30%;
+  transform: translate(26%, 67%);
+  box-shadow: none;
 }
-.buttons {
-  position: absolute;
-  top: 461px;
-  left: 154px;
+/* .buttons {
+  display: inline-block;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  transform: translate(9%, 329%);
 }
 .buttons a {
   text-decoration: none;
@@ -91,4 +90,4 @@ header {
 .button-2:hover {
   background-color: transparent;
   border: 2px solid rgb(94, 88, 88);
-}
+} */
