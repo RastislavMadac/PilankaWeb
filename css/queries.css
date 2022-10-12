@@ -99,12 +99,26 @@
     opacity: 1;
   }
 }
+@media screen and (min-width: 1012px) {
+  /* button */
+  .button-sets {
+    display: inline-block;
+    width: 20%;
+    margin-left: 20px;
+  }
+  /* logo */
+  .logo {
+    width: 20%;
+    position: absolute;
+    top: 182px;
+  }
+}
+
 @media screen and (max-width: 1013px) {
   /* menu */
   .nav-links {
     display: grid;
     height: 102vh;
-
     margin-top: 10px;
     transform: translatex(100%);
     transition: transform 0.5s ease-in;

@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   /*******
+    ******* Reusabe
+    *******/
+    .row{
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+
+    .heading-main h2{
+      text-align: center;
+      margin-top: 0px;
+      font-size: 20px;
+    }
+    .heading-main h2:after{
+      content: "";
+      display:block;
+      width: 150px;
+      border-bottom: 2px solid #a93d00; 
+      margin: 20px auto;
+      }
+      .empty-space{
+        height: 50px;
+      }
+    /*******
+    ******* Header
+    *******/
+  header{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/images/pizza1.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+ } 
+  .nav-background{
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background: rgba(0,0,0,0.7);
+    z-index: 50;
+    border-bottom: 1px solid #fff;
+  }
+ #logo img{
+   width: 200px;
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ nav ul{
+   float: right;
+   margin-top: 0px;
+   position: fixed;
+   margin-left: 22%;
+   z-index: 100;
+ }
+ nav ul li{
+   display: inline-block;
+   font-size: 30px;
+   margin-left: 15px;
+
+   
+ }
+ nav ul li a {
+   font-size: 30px;
+   color: #fff;
+   text-decoration: none;
+   border-bottom: 2px solid transparent;
+  }
+nav ul li a:hover,
+nav ul li a:active{
+  transition: border-botton 0.5s;
+  border-bottom: 2px solid #dc4f00;
+  }
+.headerText{
+   position: absolute;
+   top: 50%;
+   left: 47%;
+   transform: translate(-50%, -50%);
+}
+.headerText h1{
+   color: #fff;
+   font-size: 40px;
+   text-transform: uppercase;
+   letter-spacing: 2.2px;
+   word-spacing: 3.5;
+}
+.btn{
+   display: inline-block;
+   color: #fff;
+   text-decoration: none;
+   font-size: 20px;
+   border: 1px solid #ff7c32;
+   border-radius: 10px;
+   padding: 5px 10px;
+   letter-spacing: 1px;
+   margin-top: 7px;
+}
+
+.btn-empty{
+   margin-left: 5px;
+}
+
+.btn-full:link,
+.btn-full:visited{
+   transition: background 0.5s;
+   background: #dc4f00;
+}
+
+.btn-full:hover,
+.btn-full:active{
+   background: #a93d00;
+   border: 1px solid #a93d00;
+}
+
+.btn-empty:link,
+.btn-empty:visited{
+  margin-left: 5px;
+}
+
+.btn-empty:hover,
+.btn-empty:active{
+   transition: background 0.5s;
+   background: #a93d00;
+   border: 1px solid #a93d00;
+}
+/*****
+******Mobile navigation
+*****/
+
+.mobile-nav-icon{
+  float: right;
+  display: none;
+}
+/*******
+    ******* About us
+    *******/
+.pizza-example img {
+   width:100%;
+   border-radius:21px;  
+   box-shadow: 4px 6px 10px #000;
+}
+/*******
+    ******* Our pizza
+    *******/
+.pizza-info img {
+    width:100%;
+    height: 270px;
+    border-radius:10px;  
+    box-shadow: 4px 6px 10px #000;
+    }
+.text-pizza{
+  margin-bottom: 20px;
+} 
+.text-pizza p{
+ margin-left: 60px;
+ font-size: 20px;
+}
+    
+.text-pizza div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    text-align: center;
+    border-radius:50%;
+    padding: 12px;
+    float: left;
+    }
+
+/*******
+    ******* Referencie
+    *******/
+.referencie{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.7)),
+  url(/images/pizza1.jpg);
+  background-attachment: fixed;
+  background-size:cover;
+}
+.referencie h2{
+  color:#fff ;
+  padding-top: 40px;
+}
+.referencie h2:after{
+  border-bottom: 2px solid #fff;
+}
+.one-referencie{
+  color: #fff;
+  font-size: 20px;
+}
+
+.one-referencie p{
+  font-style: italic;
+}
+.foto-name img{
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+}
+.foto-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.foto-name p{
+padding: 13px;
+margin-left: 60px;
+font-style: normal;
+}
+
+/*******
+    ******* Foto galieria
+    *******/
+.photo-segment li{
+  list-style-type: none;
+  background-color: #000;
+  overflow: hidden;
+  height: 240px; 
+}
+.photo-segment img{
+  width: 100%;
+  height: 300px;
+  opacity: 0.5;
+  transform: scale(1.15);
+}   
+.photo-segment img:hover{
+transition: transform 0.5s,opacity 0.5s;
+transform: scale(1);
+opacity: 1;
+}
+/*******
+    ******* foto
+    *******/
+    .photo-segment1 a{
+      list-style-type: none;
+      overflow: hidden;
+      height: 240px; 
+      
+      
+    }
+    .photo-segment1 img{
+      width: 100%;
+      height: 300px;
+      border-radius: 20px 35px 41px 77px;
+     }
+    
+/*******
+    ******* kontakt form
+    *******/
+.contact-form{
+  max-width: 700px;
+  text-align: center;
+
+}
+.contact-form input{
+width: 80%;
+margin: 5px 0px;
+padding: 7px;
+border: 2px solid #000;
+border-radius: 10px;
+box-shadow: 5px 5px 5px gray;
+}
+.contact-form textarea{
+  width: 80%;
+  margin: 5px 0px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+  padding: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input[type="submit"]{
+  background: #a93d00;
+  color: #fff;
+  font-size: 20px;
+}
+input[type="submit"]:hover{
+  transition: background-color 0.5s;
+  background-color:  #dc4f00;
+  color: #000;
+  
+}
+
+/*******
+    ******* Footer
+    *******/
+.footer-page{
+  background: #aa4309;
+  margin-top: 30px;
+  color: #fff;
+
+  
+}
+.social {
+text-align: center;
+margin: 10px 0;
+}
+.social p{
+  display: inline;
+  margin-right: 20px;
+
+}
+.social p a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+}
+.footer-text{
+  text-align: center;
+  margin: 10px 0px;
+}
+.social p a:hover,
+.social p a:active{
+  color: #000;
+}
+
+
+
+    /***** Stop floating - až na konec CSS *****/
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}

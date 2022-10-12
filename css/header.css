@@ -26,7 +26,7 @@ header {
   flex-grow: 1;
   height: 40px;
 }
-.nav-links a {
+.nav-ancor {
   font-size: var(--step-3);
 
   color: whitesmoke;
@@ -50,44 +50,38 @@ header {
   margin: 0 5px 5px 5px;
   transition: all 0.3s ease;
 }
-.logo {
-  max-width: 30%;
-  transform: translate(26%, 67%);
-  box-shadow: none;
+.buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
 }
-/* .buttons {
-  display: inline-block;
-  padding: 5px 10px;
-  letter-spacing: 1px;
-  transform: translate(9%, 329%);
-}
-.buttons a {
-  text-decoration: none;
-  padding: 50px;
-  margin: 10px;
-}
+
 .button-sets {
-  padding: 1px 0 6px;
-  border-radius: 10px;
-}
-.button-1 {
+  display: block;
   background-color: transparent;
-  margin-right: 5px;
+  border-radius: 6px;
+  width: 95%;
+  margin: auto;
+  padding: 4px 0 5px 0;
+  cursor: pointer;
 }
-.button-2 {
-  background-color: orangered;
-}
-.button-2 a {
+.button-sets a {
   color: azure;
 }
-.button-1 a {
-  color: azure;
+
+.button-1 {
+  margin-bottom: 10px;
+  background-color: rgb(255, 69, 0);
 }
 .button-1:hover {
-  background-color: rgba(193, 60, 12, 0.827);
-  border: 2px solid rgb(94, 88, 88);
+  background: rgba(255, 69, 0, 0.2);
+  transition: background 0.5s;
 }
 .button-2:hover {
-  background-color: transparent;
-  border: 2px solid rgb(94, 88, 88);
-} */
+  background: rgba(255, 69, 0, 0.2);
+  transition: background 0.5s;
+}
+
+.logo {
+  width: 30%;
+}

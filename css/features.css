@@ -70,13 +70,14 @@
 }
 /* feedback */
 .feedback-area {
-  margin: 0px 10px;
+  margin: 15px 10px;
 }
 .name-of-recent {
   font-style: italic;
 }
 .picture-of-feedback {
   border-radius: 30px;
+  margin: 5px 0;
 }
 .feedback-area-3 {
   display: none;
@@ -99,12 +100,7 @@
   color: rgb(245, 238, 238);
   text-shadow: 2px 8px 6px rgb(7, 6, 6), 0px -5px 35px rgb(227, 18, 18);
 }
-.text-of-feedback {
-  padding: auto 0;
-}
-.name-of-recent {
-  padding: auto 0;
-}
+
 /* photogallery */
 .img-photo-gallery-hide {
   display: none;
